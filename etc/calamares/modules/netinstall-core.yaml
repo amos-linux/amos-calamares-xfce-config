@@ -1,0 +1,88 @@
+- name: "Latest Arch Stock Kernel"
+  description: "Select Kernel + Headers"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux
+    - linux-headers
+- name: "Stable LTS Kernel"
+  description: "Long Term Support Kernel"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - linux-lts
+    - linux-lts-headers
+- name: "Linux-hardened kernel"
+  description: "Installs the linux-hardened kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-hardened
+    - linux-hardened-headers
+- name: "Linux-zen kernel"
+  description: "Installs the linux-zen kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-zen
+    - linux-zen-headers            
+- name: "Processor U-Code"
+  description: "Installs CPU Microcode"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - amd-ucode
+    - intel-ucode
+- name: "nVidia Drivers"
+  description: "If Custom Kernel then DKMS"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - nvidia
+    - nvidia-settings
+    - nvidia-utils
+    - lib32-nvidia-utils
+    - nvidia-dkms
+    - vulkan-icd-loader
+    - lib32-vulkan-icd-loader
+- name: "Intel Graphics Drivers"
+  description: "Installs Intel Graphics drivers"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lib32-mesa 
+    - vulkan-intel
+    - vulkan-icd-loader
+    - lib32-vulkan-icd-loader
+- name: "AMD Graphics Drivers"
+  description: "Installs AMD Graphics drivers"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lib32-mesa
+    - vulkan-intel
+    - vulkan-radeon
+    - lib32-vulkan-radeon
+    - vulkan-icd-loader
+    - lib32-vulkan-icd-loader
+- name: "nViddia Related"
+  description: "nVidia related applications"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - bumblebee
+    - cuda
+    - disper
+    - nvidia-xrun
+    - optimus-manager
+    - optimus-manager-qt

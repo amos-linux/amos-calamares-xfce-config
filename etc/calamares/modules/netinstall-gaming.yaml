@@ -1,0 +1,20 @@
+- name: "Game Tools"
+  description: "Gaming Software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - mangohud-common
+    - gamehub-bin
+    - steam
+    - steam-native-runtime
+    - steam-tweaks
+    - steam -fonts
+    - bottles
+    - lutris
+    - playonlinux
+    - proton-community-updater
+    - proton-up-git
+    
+  

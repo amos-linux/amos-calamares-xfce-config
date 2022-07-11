@@ -123,8 +123,8 @@ navigation: widget
 strings:
     productName:         AmOs
     shortProductName:    AmOs
-    version:             2022-07.1
-    shortVersion:        2022.07
+    version:             2022-05.1
+    shortVersion:        2022.05
     versionedName:       AmOs
     shortVersionedName:  AmOs
     bootloaderEntryName: Generic

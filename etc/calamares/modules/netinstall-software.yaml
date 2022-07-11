@@ -1,0 +1,345 @@
+- name: "Audio"
+  description: "Audio Players & Editors"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - ardour
+    - audacious
+    - audacious-plugins
+    - audacity
+    - clementine
+    - deadbeef
+    - elisa
+    - juk
+    - kwave
+    - lmms
+    - ncmpcpp
+    - pragha
+    - radiotray
+    - rhythmbox
+    - soundconverter
+    - tauon-music-box
+- name: "Accessories"
+  description: "Various Useful Tools"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - android-tools
+    - font-manager-git
+    - galculator
+    - glances
+    - gpick
+    - grub-customizer
+    - hardcode-fixer-git
+    - liferea
+    - mediainfo-gui
+    - mcomix
+    - nitrogen
+    - pdfarranger
+    - peek
+    - pfetch
+    - remmina
+    - rollback-git
+    - snapper-rollback
+    - solaar
+    - simple-scan
+    - system76-power
+    - timeshift-autosnap
+    - vtop
+    - warpinator
+- name: "Browsers"
+  description: "Internet Browsers & E-mail"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - chromium
+    - dropbox
+    - evolution
+    - filezilla
+    - firefox-adblock-plus
+    - firefox-i18n-$LOCALE
+    - mailspring
+    - nextcloud-client
+    - opera
+    - opera-ffmpeg-codecs
+    - qutebrowser
+    - thunderbird
+- name: "Dev Tools"
+  description: "Editors for Devs"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - code
+    - geany
+    - meld
+    - sublime-text-4
+    - visual-studio-code-bin
+- name: "Disk & USB"
+  description: "USB & HDD Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - brasero
+    - baobab
+    - etcher-bin
+    - gnome-disk-utility
+    - imagewriter
+    - ventoy-bin
+    - woeusb    
+- name: "File Managers"
+  description: "File Managers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - nautilus
+    - nemo
+    - nemo-fileroller
+    - pcmanfm
+    - ranger
+    - thunar
+    - thunar-volman
+    - thunar-archive-plugin
+    - thunar-media-tags-plugin
+    - thunar-shares-plugin
+- name: "Fonts"
+  description: "Fonts for Widgets"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - terminus-font
+    - ttf-bitstream-vera
+    - ttf-fira-code
+    - ttf-inconsolata
+    - ttf-liberation
+- name: "Graphics"
+  description: "Graphics"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - blender
+    - darktable
+    - digikam
+    - flameshot    
+    - gimp
+    - inkscape
+    - krita
+- name: "LibreOffice"
+  description: "LibreOffice Fresh"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
+    - libreoffice-fresh-fr
+    - hunspell-$LOCALE
+    - hunspell-fr
+    - hunspell-de
+- name: "Package Managers"
+  description: "Selection of Package Managers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - discover
+    - flatpak
+    - octopi
+- name: "Password Manager"
+  description: "Password Managers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - bitwarden-bin
+    - enpass-bin
+    - keepassxc
+    - lastpass  
+- name: "Privacy"
+  description: "Privacy-related Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - tor-browser
+    - privoxy
+- name: "Social-Media"
+  description: "Chat Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - discord
+    - hexchat
+    - pidgin
+    - skypeforlinux-stable-bin
+    - slack-desktop
+    - telegram-desktop
+    - zoom
+- name: "Terminals"
+  description: "Various Terminals"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - alacritty
+    - gnome-terminal
+    - guake
+    - kitty
+    - konsole
+    - lxterminal
+    - sakura
+    - terminator
+    - tilix
+    - tilda
+    - tmux
+    - unimatrix-git
+- name: "Theming"
+  description: "Themes, icons and cursors"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - capitaine-cursors
+    - candi-gtk-theme
+    - candi-icons-git
+    - faba-icon-theme-git
+    - halo-icons-git
+    - kvantum-qt5
+    - materia-gtk-theme
+    - materia-kde
+    - moka-icon-theme-git
+    - oxy-neon
+    - paper-icon-theme
+    - surfn-mint-y-icons-git
+    - xcursor-arch-cursor-complete
+    - xcursor-comix
+    - xcursor-flatbed
+    - xcursor-neutral
+    - xcursor-premium
+    - xcursor-simpleandsoft
+    - xscreensaver
+    - amos-beautyline-git
+    - amos-bibata-cursurs-git
+    - amos-infinity-dark-icons-git
+    - amos-papirus-custom-git
+    - amos-sweet-icons-git
+    - amos-wallpapers-git
+    - amos-wallpaper-v1-git
+    - amos wallpaper-v2-git
+    - amos-wallpaper-v3-git
+    - amos-wallpaper-v4-git
+    - amos-wallpaper-v5-git
+    - amos-wallpaper-v6-git
+    - amos-win11-wallpapers-git
+    - amos-windows-icons-git
+    - dracular-icons-git
+    - glory-icons-git
+    - Inverse-icons-git
+    - NeonIcons
+    - sweet-folders
+    - sardi-icons
+    - tela-icons-git
+    - zafiro-icon-theme
+
+- name: "Torrent Clients"
+  description: "Torrent Downloading"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - deluge
+    - ktorrent
+    - qbittorrent
+    - transmission-gtk
+- name: "Utilities"
+  description: "Various Utilities"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - caffeine-ng
+    - evince
+    - lolcat
+    - putty
+    - screenfetch
+    - sigil
+    - timeshift
+    - wireshark-qt
+    - wttr    
+- name: "Video"
+  description: "Video Editors & More"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - celluloid
+    - guvcview
+    - handbrake
+    - hypnotix
+    - kdenlive
+    - kodi-x11
+    - kodi
+    - kodi-addons
+    - obs-studio
+    - openshot
+    - mkvtoolnix-gui
+    - mpc
+    - mpd
+    - mpv
+    - peek
+    - plex-media-player
+    - plex-media-server
+    - simplescreenrecorder
+    - smplayer
+    - youtube-dl
+    - vlc
+- name: "Virtualbox"
+  description: "Virtualbox Package"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - virtualbox
+    - virtualbox-ext-vnc
+    - virtualbox-guest-dkms
+    - virtualbox-guest-iso
+    - virtualbox-guest-utils
+    - virtualbox-host-dkms
+- name: "Wine"
+  description: "Adds Windows App Support to Linux"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - wine
+    - wine-staging
+    - wine-gecko
+    - wine-mono
+    - winetricks
