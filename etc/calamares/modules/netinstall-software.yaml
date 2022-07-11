@@ -82,6 +82,7 @@
     - meld
     - sublime-text-4
     - visual-studio-code-bin
+    - pycharm-community-edition
 - name: "Disk & USB"
   description: "USB & HDD Apps"
   critical: false
@@ -283,6 +284,7 @@
   packages:
     - caffeine-ng
     - evince
+    - archlinux-tweak-tool-git
     - lolcat
     - putty
     - screenfetch
